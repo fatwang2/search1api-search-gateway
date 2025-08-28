@@ -22,4 +22,10 @@ export const config = {
   cache: {
     defaultTtl: 60 * 1000,  // 1 minute
   },
+  
+  // Search aggregation configuration
+  search: {
+    maxPages: 5,        // Maximum pages to fetch when aggregating results
+    defaultLimit: 10,   // Default number of results to return
+  },
 }
